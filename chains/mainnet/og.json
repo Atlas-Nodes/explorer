@@ -1,5 +1,5 @@
 {
-    "chain_name": "zgtendermint_16600-1",
+    "chain_name": "0GLabs",
     "api":["https://api-0glabs-testnet.gvalidators.info"],
     "rpc":["https://rpc-0glabs-testnet.gvalidators.info"],
     "snapshot_provider": "",
@@ -7,13 +7,13 @@
     "coin_type": 60,
     "min_tx_fee": "5000",
     "addr_prefix": "0g",
-    "logo": "/logos/humans.webp",
+    "logo": "https://pbs.twimg.com/profile_images/1762204546913468416/KBZhJfhC_400x400.jpg",
     "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
     "assets": [{
         "base": "aheart",
-        "symbol": "HEART",
+        "symbol": "A0GI",
         "exponent": 18,
         "coingecko_id": "",
-        "logo": "/logos/humans.webp"
+        "logo": "https://pbs.twimg.com/profile_images/1762204546913468416/KBZhJfhC_400x400.jpg"
     }]
 }
