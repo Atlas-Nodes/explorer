@@ -1,0 +1,19 @@
+{
+    "chain_name": "zgtendermint_16600-1",
+    "coingecko": "",
+    "api": ["https://api-0glabs-testnet.gvalidators.info"], 
+    "rpc": ["https://rpc-0glabs-testnet.gvalidators.info"],
+    "snapshot_provider": "",
+    "sdk_version": "0.47.3",
+    "coin_type": "60",
+    "min_tx_fee": "40000",
+    "addr_prefix": "0g",
+    "logo": "https://pbs.twimg.com/profile_images/1762204546913468416/KBZhJfhC_400x400.jpg",
+    "assets": [{
+        "base": "peaka",
+        "symbol": "A0GI",
+        "exponent": "18", 
+        "coingecko_id": "",
+        "logo": "https://pbs.twimg.com/profile_images/1762204546913468416/KBZhJfhC_400x400.jpg"
+    }]
+}
