@@ -1,7 +1,7 @@
 {
     "chain_name": "0GLabs",
-    "api":["https://api-0glabs-testnet.gvalidators.info"],
-    "rpc":["https://rpc-0glabs-testnet.gvalidators.info"],
+    "api":["https://testnet.zerog.api.liveraven.net"],
+    "rpc":["https://testnet.zerog.rpc.liveraven.net"],
     "snapshot_provider": "",
     "sdk_version": "0.46.3",
     "coin_type": 60,
