@@ -1,19 +1,21 @@
 {
-    "chain_name": "0GLabs",
-    "api":["https://testnet.zerog.api.liveraven.net"],
-    "rpc":["https://testnet.zerog.rpc.liveraven.net"],
-    "snapshot_provider": "",
-    "sdk_version": "0.46.3",
-    "coin_type": 60,
-    "min_tx_fee": "5000",
+    "chain_name": "zero-gravity",
+    "api": [
+        "https://testnet.zero-gravity.api.liveraven.net"
+    ],
+    "rpc": [
+        "https://testnet.zero-gravity.rpc.liveraven.net"
+    ],
+    "coin_type": "118",
+    "sdk_version": "0.46.11",
     "addr_prefix": "0g",
+    "min_tx_fee": "0.00252ua0gi",
     "logo": "https://pbs.twimg.com/profile_images/1762204546913468416/KBZhJfhC_400x400.jpg",
-    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
-    "assets": [{
-        "base": "aheart",
-        "symbol": "A0GI",
-        "exponent": 18,
-        "coingecko_id": "",
-        "logo": "https://pbs.twimg.com/profile_images/1762204546913468416/KBZhJfhC_400x400.jpg"
-    }]
+    "assets": [
+        {
+            "symbol": "a0gi",
+            "base": "ua0gi",
+            "exponent": 6
+        }
+    ]
 }
