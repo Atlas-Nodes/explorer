@@ -1,30 +1,24 @@
 {
-    "chain_name": "neutron",
+    "chain_name": "zgtendermint_16600-1",
     "api": [
-        {"provider": "Polkachu", "address": "https://neutron-api.polkachu.com"},
-        {"provider": "NodeStake", "address": "https://api.neutron.nodestake.top"},
-        {"provider": "Allnodes", "address": "https://neutron-rest.publicnode.com"}
+        {"provider": "GV", "address": "https://api-0glabs-testnet.gvalidators.info"},
     ],
     "rpc": [
-        {"provider": "Polkachu", "address": "https://neutron-rpc.polkachu.com"}, 
-        {"provider": "NodeStake", "address": "https://rpc.neutron.nodestake.top"},
-        {"provider": "Allnodes", "address": "https://neutron-rpc.publicnode.com:443"}
+        {"provider": "GV", "address": "https://rpc-0glabs-testnet.gvalidators.info"}, 
     ],
     "provider_chain": {
-        "api": ["https://api-cosmoshub-ia.cosmosia.notional.ventures"]
+        "api": ["https://api-0glabs-testnet.gvalidators.info"]
     },
     "features": ["dashboard", "blocks", "ibc", "cosmwasm", "uptime", "parameters", "state-sync", "consensus", "supply", "widget"],
     "sdk_version": "0.45.1",
-    "coin_type": "118",
-    "min_tx_fee": "8000",
+    "min_tx_fee": "4000",
     "assets": [{
-        "base": "untrn",
-        "symbol": "NTRN",
+        "base": "a0gi",
+        "symbol": "A0GI",
         "exponent": "6",
-        "coingecko_id": "neutron",
-        "logo": "/logos/neutron.svg"
+        "logo": "https://pbs.twimg.com/profile_images/1762204546913468416/KBZhJfhC_400x400.jpg"
     }],
-    "addr_prefix": "neutron",
+    "addr_prefix": "0g",
     "theme_color": "#161723",
-    "logo": "/logos/neutron.svg"
+    "logo": "https://pbs.twimg.com/profile_images/1762204546913468416/KBZhJfhC_400x400.jpg"
 }
